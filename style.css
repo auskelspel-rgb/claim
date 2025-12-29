@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header, footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.products {
+  text-align: center;
+  padding: 2rem;
+}
+
+.product-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-options label {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.product-options img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.price {
+  text-decoration: line-through;
+  color: red;
+}
+
+.free {
+  color: green;
+  font-weight: bold;
+}
+
+.form {
+  text-align: center;
+  padding: 2rem;
+}
+
+form input, form button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact {
+  text-align: center;
+  margin: 2rem;
+}
+
+.contact a {
+  color: #25D366;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.contact i {
+  margin-right: 8px;
+}

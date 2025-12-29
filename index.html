@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temu Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Temu Delivery</h1>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2>Choose Your Item</h2>
+      <div class="product-options">
+        <label>
+          <input type="radio" name="product" value="foam" required />
+          <img src="assets/foam.jpg" alt="Orthopedic Foam" />
+          <p><strong>Orthopedic Foam</strong><br>
+          <span class="price">₦230,000</span> → <span class="free">Free</span><br>
+          Delivery: ₦35,000</p>
+        </label>
+        <label>
+          <input type="radio" name="product" value="fridge" required />
+          <img src="assets/fridge.jpg" alt="Fridge" />
+          <p><strong>Fridge</strong><br>
+<span class="price">₦340,000</span> → <span class="free">Free</span><br>
+Delivery: ₦41,500</p>
+
+        </label>
+      </div>
+    </section>
+
+    <section class="form">
+      <form action="https://formspree.io/f/mregodgk" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="text" name="address" placeholder="Current Address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+
+    <section class="contact">
+      <a href="https://wa.me/19039216650" target="_blank">
+        <i class="fab fa-whatsapp"></i> Contact us on WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Temu Delivery</p>
+  </footer>
+</body>
+</html>
